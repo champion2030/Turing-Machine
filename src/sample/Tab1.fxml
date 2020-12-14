@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="539.0" prefWidth="874.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Tab1Controller">
+   <children>
+      <GridPane fx:id="gridpane" layoutX="11.0" layoutY="6.0" prefHeight="527.0" prefWidth="853.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="421.0" minWidth="10.0" prefWidth="358.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="495.0" minWidth="10.0" prefWidth="495.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="258.0" minHeight="10.0" prefHeight="63.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="464.0" minHeight="10.0" prefHeight="462.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="464.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="L = {(ad)^n (cb)^n | n&gt;=1}">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textinput1" prefHeight="34.0" prefWidth="484.0" GridPane.columnIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextArea fx:id="output_1" prefHeight="383.0" prefWidth="358.0" GridPane.rowIndex="1">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextArea>
+            <Button fx:id="start_1" mnemonicParsing="false" text="Запустить МТ" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="stopGraphics" alignment="CENTER" contentDisplay="CENTER" disable="true" mnemonicParsing="false" text="Оставновить график" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="start_graphic" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="Нарисовать график" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
