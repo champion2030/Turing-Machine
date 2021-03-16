@@ -1,6 +1,5 @@
 package sample;
 
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.net.URL;
@@ -636,7 +635,7 @@ public class Tab1Controller {
             words[k1] = "y";
             count++;
             k1--;
-            q11S(words); // Встретили пробел надо заменить на y
+            q11S(words);
         }else {
             switch (words[k1]) {
                 case "b", "c" -> q9S(words);

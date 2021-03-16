@@ -4,7 +4,6 @@ import java.io.FileNotFoundException;
 import java.io.PrintStream;
 import java.net.URL;
 import java.util.*;
-
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.concurrent.Service;

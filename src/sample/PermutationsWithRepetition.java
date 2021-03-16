@@ -1,8 +1,8 @@
 package sample;
 
 class PermutationsWithRepetition {
-    private String[] source;
-    private int variationLength;
+    private final String[] source;
+    private final int variationLength;
 
     public PermutationsWithRepetition(String[] source, int variationLength) {
         this.source = source;
